@@ -1,0 +1,551 @@
+/* Font Icons */
+.icon {
+    display: inline-block;
+    font-family: 'ios7-icon';
+    -webkit-text-rendering: geometricPrecision;
+    -moz-text-rendering: geometricPrecision;
+    -ms-text-rendering: geometricPrecision;
+    -o-text-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-style: normal;
+    text-shadow: none;
+}
+
+[class*="sa-"] {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Left Menu */
+[class*="sa-side-"] {
+    width: 44px;
+    height: 44px;
+}
+
+.sa-side-home { background-image: url(../img/icon/home.png); }
+.sa-side-typography { background-image: url(../img/icon/typography.png); }
+.sa-side-widget { background-image: url(../img/icon/widgets.png); }
+.sa-side-table { background-image: url(../img/icon/table.png); }
+.sa-side-form { background-image: url(../img/icon/form.png); }
+.sa-side-ui { background-image: url(../img/icon/ui.png); }
+.sa-side-folder { background-image: url(../img/icon/folder.png); }
+.sa-side-calendar { background-image: url(../img/icon/calendar.png); }
+.sa-side-page { background-image: url(../img/icon/pages.png); }
+.sa-side-chart { background-image: url(../img/icon/chart.png); }
+.sa-side-photos { background-image: url(../img/icon/photos.png); }
+
+/* Top Menu */
+[class*="sa-top-"] {
+    width: 40px;
+    height: 48px;
+    float: left;
+}
+.sa-top-message { background-image: url(../img/icon/message.png); }
+.sa-top-updates { background-image: url(../img/icon/updates.png); }
+
+/* Editor */
+[class*="editor-"] {
+   width: 13px;
+   height: 22px;
+   background-position: center;
+   background-repeat: no-repeat;
+   float: left;
+}
+.editor-text { background-image: url(../img/editor/text.png); }
+.editor-bold { background-image: url(../img/editor/bold.png); }
+.editor-italic { background-image: url(../img/editor/italic.png); }
+.editor-underline { background-image: url(../img/editor/underline.png); }
+.editor-unstyle { background-image: url(../img/editor/unstyle.png); }
+.editor-unlist { background-image: url(../img/editor/unlist.png); }
+.editor-orderlist { background-image: url(../img/editor/orderlist.png); }
+.editor-align { background-image: url(../img/editor/align.png); }
+.editor-line-height { background-image: url(../img/editor/line-height.png); }
+.editor-table { background-image: url(../img/editor/table.png); }
+.editor-link { background-image: url(../img/editor/link.png); }
+.editor-picture { background-image: url(../img/editor/picture.png); }
+.editor-video { background-image: url(../img/editor/video.png); }
+.editor-full-screen { background-image: url(../img/editor/full-screen.png); }
+.editor-code { background-image: url(../img/editor/code.png); }
+.editor-help { background-image: url(../img/editor/help.png); }
+.editor-font { background-image: url(../img/editor/font.png); }
+.editor-heading { background-image: url(../img/editor/heading.png); }
+
+/* List Icons */
+[class*="sa-list-"] {
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sa-list-add { background-image: url(../img/icon/add.png); }
+.sa-list-refresh { background-image: url(../img/icon/refresh.png); }
+.sa-list-move { background-image: url(../img/icon/move.png); }
+.sa-list-delete { background-image: url(../img/icon/delete.png); }
+.sa-list-back { background-image: url(../img/icon/back.png); }
+.sa-list-forwad { background-image: url(../img/icon/forwad.png); }
+.sa-list-day { background-image: url(../img/icon/day.png); }
+.sa-list-week { background-image: url(../img/icon/week.png); }
+.sa-list-month { background-image: url(../img/icon/month.png); }
+.sa-list-spam { background-image: url(../img/icon/spam.png); }
+.sa-list-archive { background-image: url(../img/icon/archive.png); }
+
+
+/* Others */
+#menu-toggle { background-image: url(../img/icon/menu.png); }
+
+/* Form */
+.sa-plus {
+    width: 13px;
+    height: 13px;
+    background-image: url(../img/icon/plus-sm.png);
+    display: inline-block;
+}
+
+/* For Higher DPI */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and (   min--moz-device-pixel-ratio: 1.25),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 1.25),
+only screen and (                min-resolution: 120dpi),
+only screen and (                min-resolution: 1.25dppx) {
+
+    /* Left Menu */
+    .sa-side-typography, .sa-side-widget, .sa-side-table, .sa-side-ui, .sa-side-folder { background-size: 23px 21px; }
+
+    .sa-side-home { background-image: url(../img/icon/home@2x.png); background-size: 25px 25px; }
+    .sa-side-typography { background-image: url(../img/icon/typography@2x.png); }
+    .sa-side-widget { background-image: url(../img/icon/widgets@2x.png); }
+    .sa-side-table { background-image: url(../img/icon/table@2x.png); }
+    .sa-side-form { background-image: url(../img/icon/form@2x.png); background-size: 19px 25px; }
+    .sa-side-ui { background-image: url(../img/icon/ui@2x.png);  }
+    .sa-side-folder { background-image: url(../img/icon/folder@2x.png); }
+    .sa-side-calendar { background-image: url(../img/icon/calendar@2x.png); background-size: 23px 23px; }
+    .sa-side-page { background-image: url(../img/icon/pages@2x.png); background-size: 25px 21px; }
+    .sa-side-chart { background-image: url(../img/icon/chart@2x.png); background-size: 24px 19px; }
+    .sa-side-photos { background-image: url(../img/icon/photos@2x.png); background-size: 23px 19px; }
+    
+    /* Top Menu */
+    .sa-top-message { background-image: url(../img/icon/message@2x.png); background-size: 25px 17px; }
+    .sa-top-updates { background-image: url(../img/icon/updates@2x.png); background-size: 25px 25px; }
+
+    /* Editor */
+    .editor-text { background-image: url(../img/editor/text@2x.png); background-size: 11px 13px; }
+    .editor-bold { background-image: url(../img/editor/bold@2x.png); background-size:  10px 13px;}
+    .editor-italic { background-image: url(../img/editor/italic@2x.png); background-size: 5px 13px; }
+    .editor-underline { background-image: url(../img/editor/underline@2x.png); background-size: 10px 13px; }
+    .editor-unstyle { background-image: url(../img/editor/unstyle@2x.png); background-size: 11px 13px; }
+    .editor-unlist { background-image: url(../img/editor/unlist@2x.png); background-size: 13px 13px; }
+    .editor-orderlist { background-image: url(../img/editor/orderlist@2x.png); background-size: 13px 13px; }
+    .editor-align { background-image: url(../img/editor/align@2x.png); background-size: 13px 13px; }
+    .editor-line-height { background-image: url(../img/editor/line-height@2x.png); background-size: 11px 13px; }
+    .editor-table { background-image: url(../img/editor/table@2x.png); background-size: 13px 13px; }
+    .editor-link { background-image: url(../img/editor/link@2x.png); background-size: 9px 13px; }
+    .editor-picture { background-image: url(../img/editor/picture@2x.png); background-size: 13px 13px; }
+    .editor-video { background-image: url(../img/editor/video@2x.png); background-size: 13px 13px; }
+    .editor-full-screen { background-image: url(../img/editor/full-screen@2x.png); background-size: 13px 13px; }
+    .editor-code { background-image: url(../img/editor/code@2x.png); background-size: 10px 13px;}
+    .editor-help { background-image: url(../img/editor/help@2x.png); background-size: 10px 13px; }
+    .editor-font { background-image: url(../img/editor/font@2x.png); background-size: 10px 13px; }
+    .editor-heading { background-image: url(../img/editor/heading@2x.png); background-size: 10px 13px; }
+
+    /* List Icons */    
+    .sa-list-add { background-image: url(../img/icon/add@2x.png); background-size: 19px 19px;  }
+    .sa-list-refresh { background-image: url(../img/icon/refresh@2x.png); background-size: 18px 19px; }
+    .sa-list-move { background-image: url(../img/icon/move@2x.png); background-size: 19px 19px; }
+    .sa-list-delete { background-image: url(../img/icon/delete@2x.png); background-size: 15px 19px; }
+    .sa-list-back { background-image: url(../img/icon/back@2x.png); background-size: 12px 21px; }
+    .sa-list-forwad { background-image: url(../img/icon/forwad@2x.png); background-size: 12px 21px; }
+    .sa-list-day { background-image: url(../img/icon/day@2x.png); background-size: 21px 21px; }
+    .sa-list-week { background-image: url(../img/icon/week@2x.png); background-size: 21px 21px; }
+    .sa-list-month { background-image: url(../img/icon/month@2x.png); background-size: 21px 21px; }
+    .sa-list-spam { background-image: url(../img/icon/spam@2x.png); background-size: 17px 17px; }
+    .sa-list-archive { background-image: url(../img/icon/archive@2x.png); background-size: 17px 17px; }
+
+    /* Form */
+    .sa-plus { background-image: url(../img/icon/plus-sm@2x.png); background-size: 13px 13px; }
+    
+    /* Others */
+    #menu-toggle { background-image: url(../img/icon/menu@2x.png); background-size: 18px 13px; }
+    .main-search { background-image: url(../img/icon/search@2x.png); background-size: 25px 25px; }
+    .tile-config > .tile-menu { background-image: url(../img/icon/tile-actions@2x.png); background-size: 13px 3px; }
+    .message-search:not(:focus) { background-image: url(../img/icon/search@2x.png); background-size: 25px 25px; }
+}
+
+@font-face {
+    font-family: icomoon;
+    src: url('/public/backend/fonts/icomoon.ttf');
+}
+
+[class^="s-icon-"],
+[class*=" s-icon-"],
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: "icomoon";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: -7%
+}
+.s-icon-voucher-b {
+    line-height: 0.7em !important
+}
+svg.icon {
+    height: 100px
+}
+svg.icon path,
+svg.icon rect {
+    fill: #c2c2c2
+}
+.s-icon-providers-b:before {
+    content: "\e921"
+}
+.s-icon-providers:before {
+    content: "\e920"
+}
+.s-icon-voucher-b:before {
+    content: "\e91f"
+}
+.s-icon-left-arrow-b:before {
+    content: "\e91e"
+}
+.s-icon-user-b:before {
+    content: "\e90d"
+}
+.s-icon-calendar-b:before {
+    content: "\e90e"
+}
+.s-icon-home-b:before {
+    content: "\e90f"
+}
+.s-icon-cloud-b:before {
+    content: "\e910"
+}
+.s-icon-settings-b:before {
+    content: "\e911"
+}
+.s-icon-search-b:before {
+    content: "\e912"
+}
+.s-icon-bell-b:before {
+    content: "\e913"
+}
+.s-icon-time-b:before {
+    content: "\e914"
+}
+.s-icon-client-b:before {
+    content: "\e915"
+}
+.s-icon-mail-b:before {
+    content: "\e916"
+}
+.s-icon-services-b:before {
+    content: "\e917"
+}
+.s-icon-reports-b:before {
+    content: "\e918"
+}
+.s-icon-dashboard-b:before {
+    content: "\e919"
+}
+.s-icon-sales-b:before {
+    content: "\e91a"
+}
+.s-icon-inventory-b:before {
+    content: "\e91b"
+}
+.s-icon-right-arrow-b:before {
+    content: "\e91c"
+}
+.s-icon-plus-b:before {
+    content: "\e91d"
+}
+.icon-lock:before {
+    content: "\f023"
+}
+.icon-settings:before {
+    content: "\e90c"
+}
+.icon-bubble:before {
+    content: "\e90b"
+}
+.icon-heart:before {
+    content: "\f004"
+}
+.icon-heart-o:before {
+    content: "\f08a"
+}
+.s-icon-view:before {
+    content: "\e90a"
+}
+.s-icon-plus-thin:before {
+    content: "\e909"
+}
+.s-icon-arrived:before {
+    content: "\e907"
+}
+.s-icon-started:before {
+    content: "\e908"
+}
+.s-icon-online:before {
+    content: "\f0c2"
+}
+.icon-question-circle:before {
+    content: "\f059"
+}
+.s-icon-confirmed:before {
+    content: "\f087"
+}
+.icon-ok:before {
+    content: "\f00c"
+}
+.icon-remove:before {
+    content: "\f00d"
+}
+.icon-refresh:before {
+    content: "\f021"
+}
+.icon-tag:before {
+    content: "\f02b"
+}
+.icon-plus:before {
+    content: "\f067"
+}
+.icon-reorder:before {
+    content: "\f0c9"
+}
+.icon-spinner:before {
+    content: "\f110"
+}
+.s-icon-no_show:before {
+    content: "\e616"
+}
+.s-icon-bell:before {
+    content: "\e906"
+}
+.s-icon-paid:before {
+    content: "\f15b"
+}
+.s-icon-tip:before {
+    content: "\e905"
+}
+.s-icon-unpaid:before {
+    content: "\e621"
+}
+.s-icon-paid-old:before {
+    content: "\e904"
+}
+.s-icon-no_show_old:before {
+    content: "\e902"
+}
+.s-icon-completed:before {
+    content: "\e903"
+}
+.s-icon-close:before {
+    content: "\e900"
+}
+.s-icon-dryer:before {
+    content: "\e901"
+}
+.s-icon-calendar-date:before {
+    content: "\e801"
+}
+.s-icon-scissors:before {
+    content: "\e800"
+}
+.s-icon-bookmark-user:before {
+    content: "\e618"
+}
+.s-icon-anti-clock:before {
+    content: "\e600"
+}
+.s-icon-bag:before {
+    content: "\e601"
+}
+.s-icon-calendar:before {
+    content: "\e602"
+}
+.s-icon-camera:before {
+    content: "\e603"
+}
+.s-icon-tickets:before {
+    content: "\e604"
+}
+.s-icon-down-arrow:before {
+    content: "\e605"
+}
+.s-icon-download:before {
+    content: "\e606"
+}
+.s-icon-event-list:before {
+    content: "\e607";
+    font-weight: bolder;
+}
+.s-icon-file-text:before {
+    content: "\e608"
+}
+.s-icon-file:before {
+    content: "\e621"
+}
+.s-icon-graph-up:before {
+    content: "\e60a"
+}
+.s-icon-graph:before {
+    content: "\e60b"
+}
+.s-icon-home:before {
+    content: "\e60c"
+}
+.s-icon-home-border:before {
+    content: "\e60d"
+}
+.s-icon-left-arrow:before {
+    content: "\e60e"
+}
+.s-icon-locate:before {
+    content: "\e60f"
+}
+.s-icon-mail:before {
+    content: "\e610"
+}
+.s-icon-user-2:before {
+    content: "\e611"
+}
+.s-icon-male-group:before {
+    content: "\e612"
+}
+.s-icon-navigate:before {
+    content: "\e613"
+}
+.s-icon-node:before {
+    content: "\e614"
+}
+.s-icon-printer:before {
+    content: "\e615"
+}
+.s-icon-flag:before {
+    content: "\e616"
+}
+.s-icon-right-arrow:before {
+    content: "\e617"
+}
+.s-icon-search:before {
+    content: "\e620"
+}
+.s-icon-statistics:before {
+    content: "\e619"
+}
+.s-icon-time:before {
+    content: "\e61a"
+}
+.s-icon-top-arrow:before {
+    content: "\e61b"
+}
+.s-icon-trash:before {
+    content: "\e61c"
+}
+.s-icon-two-files:before {
+    content: "\e61d"
+}
+.s-icon-upload:before {
+    content: "\e61e"
+}
+.s-icon-user:before {
+    content: "\e61f"
+}
+.s-icon-graph-data:before {
+    content: "\e609"
+}
+.s-icon-earth:before {
+    content: "\e9ca"
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none
+}
+.icon-large:before {
+    vertical-align: -15%;
+    font-size: 1.7em
+}
+.icon-xlarge:before {
+    font-size: 2.5em
+}
+a [class^="icon-"],
+a [class*=" icon-"],
+a [class^="icon-"]:before,
+a [class*=" icon-"]:before {
+    display: inline
+}
+.btn [class^="icon-"].icon-large,
+.nav [class^="icon-"].icon-large,
+.btn [class*=" icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
+    line-height: .9em
+}
+.icon-spin {
+    display: inline-block;
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+.icon-rotate-90:before {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=1)
+}
+.icon-rotate-180:before {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=2)
+}
+.icon-rotate-270:before {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3)
+}
+.icon-flip-horizontal:before {
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1)
+}
+.icon-flip-vertical:before {
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1)
+}
